@@ -53,7 +53,7 @@ main {
 }
 
 h1 {
-    $color_1: blue;
+    color: $color_1;
     text-shadow: 0 0 1px#fff;
     margin-bottom: 20px;
     font-size: 30px;
@@ -67,7 +67,7 @@ h1 {
 
 .call a {
     background-color: rgba(107, 173, 69, 0.87);
-    $color_2: purple;
+    color: $color_2;
     text-decoration: none;
     padding: 10px 20px;
     float: right;
