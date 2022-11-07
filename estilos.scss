@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Kalam&display=swap');
+$colorblue: blue;
+$colorpurple: rgb(56, 5, 66);
 * {
     margin: 0;
     padding: 0;
@@ -51,7 +53,7 @@ main {
 }
 
 h1 {
-    color: rgb(22, 18, 18);
+    $colorpurple: rgb(56, 5, 66);
     text-shadow: 0 0 1px#fff;
     margin-bottom: 20px;
     font-size: 30px;
@@ -65,7 +67,7 @@ h1 {
 
 .call a {
     background-color: rgba(107, 173, 69, 0.87);
-    color: black;
+    $colorblue: blue;
     text-decoration: none;
     padding: 10px 20px;
     float: right;
