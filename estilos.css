@@ -102,6 +102,7 @@ h2 {
   border: #333;
   background-color: rgba(34, 34, 34, 0.692);
   display: grid;
+  grid-area: auto;
   padding: auto;
   margin: auto;
   text-align: center;
