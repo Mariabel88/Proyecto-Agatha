@@ -103,6 +103,7 @@ h2 {
   border: rgb(46, 45, 45);
   background-color: rgba(34, 34, 34, 0.692);
   display: grid;
+  grid-row: 30px;
   justify-content: space-around;
   padding: auto;
   margin: auto;
@@ -111,10 +112,12 @@ h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-family: "Kalam", cursive; 
 }
+
 h4{
   background-color: rgba(24, 24, 24, 0.726);
   font-size: 25px;
 }
+
 .list-container {
   width: 100%;
   height: auto;
