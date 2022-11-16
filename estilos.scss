@@ -109,8 +109,9 @@ h2 {
     padding: auto;
     margin: auto;
     text-align: center;
-    font-size: 20px;
-
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-family: "Kalam", cursive; 
 }
 
 .list-container {
@@ -125,6 +126,14 @@ h2 {
     font-size: 20px;
 }
 
+h5{
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-family: "Kalam", cursive; 
+    font-size: 25px;
+    color: #fff;
+    background-color: goldenrod;
+    text-shadow: 0 0 5px #333;
+}
 .galeria {
     background-image: url(imagenes/librosdeagathaenmesa.png);
     background-repeat: no-repeat;

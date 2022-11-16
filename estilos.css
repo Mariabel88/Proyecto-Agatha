@@ -113,11 +113,6 @@ h2 {
   font-family: "Kalam", cursive; 
 }
 
-h4{
-  background-color: rgba(24, 24, 24, 0.726);
-  font-size: 25px;
-}
-
 .list-container {
   width: 100%;
   height: auto;
@@ -128,7 +123,18 @@ h4{
   padding: auto;
   margin: auto;
   font-size: 20px;
+  font-family: "Kalam", cursive; 
 }
+
+h5{
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Kalam", cursive; 
+  font-size: 25px;
+  color: #fff;
+  background-color: goldenrod;
+  text-shadow: 0 0 5px #333;
+}
+
 
 .galeria {
   background-image: url(imagenes/librosdeagathaenmesa.png);
