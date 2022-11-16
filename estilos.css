@@ -165,7 +165,7 @@ h5{
   background-image: url(imagenes/asesinatoenelexpresodeoriente.png);
   background-size: cover;
   background-position: center;
-  transform: translate(100px, 20px);
+  transform: translate(80px, 20px);
   animation-timing-function: linear;
 }
 
@@ -173,8 +173,8 @@ h5{
   background-image: url(imagenes/librosdeagathachristie.png);
   background-size: cover;
   background-position: center;
-  transform: rotate(20deg);
-  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(1.2);
+  animation-timing-function: ease-out;
 }
 
 .item3 {
@@ -197,8 +197,8 @@ h5{
   background-image: url(imagenes/muerteenelnilo.png);
   background-size: cover;
   background-position: center;
-  transform: rotateZ(-20deg);
-  animation-timing-function: step-start;
+  transform: translate(80px, 20px);
+  animation-timing-function: linear;
 }
 
 .item6 {
@@ -213,7 +213,7 @@ h5{
   background-image: url(imagenes/imagesproyectowebchristie.png);
   background-size: cover;
   background-position: center;
-  transform: skew(-30deg);
+  transform: skew(-20deg);
   animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
@@ -221,8 +221,8 @@ h5{
   background-image: url(imagenes/missmarple.png);
   background-size: cover;
   background-position: center;
-  transform: skewy(30deg);
-  animation-timing-function: step-start;
+  transform: rotateY(20deg);
+  animation-timing-function: ease-in-out;
 }
 
 footer {
