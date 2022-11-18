@@ -51,7 +51,7 @@ main {
 
 h1 {
   color: rgb(22, 18, 18);
-  text-shadow: 0 0 1px #fff;
+  text-shadow: 0 0 1px rgb(238, 226, 226);
   margin-bottom: 20px;
   font-size: 30px;
 }
@@ -166,7 +166,8 @@ h5 {
   background-size: cover;
   background-position: center;
   transform: scale(1.2);
-  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
   margin: 15px;
   padding: 15px;
 }
@@ -176,7 +177,8 @@ h5 {
   background-size: cover;
   background-position: center;
   transform: scale(1.2);
-  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
   margin: 15px;
   padding: 15px;
 }
@@ -186,7 +188,8 @@ h5 {
   background-size: cover;
   background-position: center;
   transform: rotateX(20deg);
-  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
   margin: 15px;
   padding: 15px;
 }
@@ -198,7 +201,8 @@ h5 {
   background-size: cover;
   background-position: center;
   transform: rotateY(20deg);
-  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
   margin: 10px;
   padding: 15px;
 }
@@ -210,7 +214,8 @@ h5 {
   background-size: cover;
   background-position: center;
   transform: rotateY(20deg);
-  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
   margin: 30px;
   padding: 15px;
 }
@@ -222,7 +227,8 @@ h5 {
   background-size: cover;
   background-position: center;
   transform: scale(1.2);
-  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
   margin: 30px;
   padding: 15px;
 }
@@ -234,7 +240,8 @@ h5 {
   background-size: cover;
   background-position: center;
   transform: skew(-20deg);
-  animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   margin: 15px;
   padding: 15px;
 }
@@ -244,7 +251,8 @@ h5 {
   background-size: cover;
   background-position: center;
   transform: scale(1.2);
-  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
   margin: 15px;
   padding: 15px;
 }
@@ -308,6 +316,4 @@ footer :hover {
   box-shadow: 0 0 5px orangered;
 }
 
-/*# sourceMappingURL=estilos.css.map */
-
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos.css.map *//*# sourceMappingURL=estilos.css.map */
