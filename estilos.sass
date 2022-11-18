@@ -163,136 +163,151 @@ h2
   
   
   .item1 
-    background-image: url(imagenes/asesinatoenelexpresodeoriente.png)
-    width: 200px
-    height: 200px
-    background-size: cover
-    background-position: center
-    transform: scale(1.2)
-    animation-timing-function: ease-out
-    
-  
-  
-  .item2 
-    background-image: url(imagenes/librosdeagathachristie.png)
-    background-size: cover
-    background-position: center
-    transform: translate(80px, 20px)
-    animation-timing-function: linear
-  
-  
-  .item3 
-    background-image: url(imagenes/agathaysuslibros.png)
-    background-size: cover
-    background-position: center
-    transform: rotateX(20deg)
-    animation-timing-function: ease-in
-  
-  
-  .item4 
-    background-image: url(imagenes/agathabiblioteca.png)
-    width: 200px
-    height: 180px
-    background-size: cover
-    background-position: center
-    transform: rotateY(20deg)
-    animation-timing-function: ease-in-out
-  
-  
-  .item5 
-    background-image: url(imagenes/muerteenelnilo.png)
-    width: 250px
-    height: 200px
-    background-size: cover
-    background-position: center
-    transform: rotateY(20deg)
-    animation-timing-function: ease-in-out
-  
-  
-  .item6 
-    background-image: url(imagenes/agatha-christie-1280x720-1.png)
-    width: 200px
-    height: 200px
-    background-size: cover
-    background-position: center
-    transform: scale(1.2)
-    animation-timing-function: ease-out
-  
-  
-  .item7 
-    background-image: url(imagenes/imagesproyectowebchristie.png)
-    width: 200px
-    height: 200px
-    background-size: cover
-    background-position: center
-    transform: skew(-20deg)
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
-  
-  
-  .item8 
-    background-image: url(imagenes/missmarple.png)
-    background-size: cover
-    background-position: center
-    transform: translate(80px, 20px)
-    animation-timing-function: linear
-  
-  
-  footer 
-    background-color: peru
-    color: #fff
-    text-align: center
-    font-size: 25px
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif
-    font-family: "Kalam", cursive
-  
+  background-image: url(imagenes/asesinatoenelexpresodeoriente.png)
+  width: 200px
+  height: 200px
+  background-size: cover
+  background-position: center
+  transform: scale(1.2)
+  animation-timing-function: ease-out
+  margin: 15px
+  padding: 15px
 
-  footer :hover
-    color: #333
-    text-shadow: 0 0 3px rgb(0, 0, 0)
+
+.item2 
+  background-image: url(imagenes/librosdeagathachristie.png)
+  background-size: cover
+  background-position: center
+  transform: scale(1.2)
+  animation-timing-function: ease-out
+  margin: 15px
+  padding: 15px
+
+
+.item3 
+  background-image: url(imagenes/agathaysuslibros.png)
+  background-size: cover
+  background-position: center
+  transform: rotateX(20deg)
+  animation-timing-function: ease-in
+  margin: 15px
+  padding: 15px
+
+
+.item4 
+  background-image: url(imagenes/agathabiblioteca.png)
+  width: 200px
+  height: 180px
+  background-size: cover
+  background-position: center
+  transform: rotateY(20deg)
+  animation-timing-function: ease-in-out
+  margin: 10px
+  padding: 15px
+
+
+.item5 
+  background-image: url(imagenes/muerteenelnilo.png)
+  width: 250px
+  height: 200px
+  background-size: cover
+  background-position: center
+  transform: rotateY(20deg)
+  animation-timing-function: ease-in-out
+  margin: 30px
+  padding: 15px
+
+
+.item6 
+  background-image: url(imagenes/agatha-christie-1280x720-1.png)
+  width: 200px
+  height: 200px
+  background-size: cover
+  background-position: center
+  transform: scale(1.2)
+  animation-timing-function: ease-out
+  margin: 30px
+  padding: 15px
+
+
+.item7 
+  background-image: url(imagenes/imagesproyectowebchristie.png)
+  width: 200px
+  height: 200px
+  background-size: cover
+  background-position: center
+  transform: skew(-20deg)
+  animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+  margin: 15px
+  padding: 15px
+
+
+.item8 
+  background-image: url(imagenes/missmarple.png)
+  background-size: cover
+  background-position: center
+  transform: scale(1.2)
+  animation-timing-function: ease-out
+  margin: 15px
+  padding: 15px
+
+
+footer 
+  background-color: peru
+  color: #fff
+  text-align: center
+  font-size: 25px
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif
+
+
+footer :hover
+  color: #333
+  text-shadow: 0 0 3px rgb(0, 0, 0)
+
+
+@media only screen and (min-width: 480px) 
+  .galeria 
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: repeat(4, 200px)
   
-@media only screen and (min-width:480px) 
-    .galeria 
-        grid-template-columns: 1fr 1fr
-        grid-template-rows: repeat(4, 200px)
-    
-
-    .grid-container 
-        display: block
-    
-
+  .grid-container 
+    display: block
+  
 
 @media only screen and (min-width: 1024px) 
-    .galeria 
-        grid-template-columns: repeat(4, 1fr)
-        grid-template-rows: 200px 200px
-    
-
+  .galeria 
+    grid-template-columns: repeat(4, 1fr)
+    grid-template-rows: 200px 200px
+  
 
 .redes 
-    font-size: 40px
-    letter-spacing: 10px
+  font-size: 40px
+  letter-spacing: 10px
 
 
 .redes a 
-    color: #fff
+  color: #fff
 
 
 .redes a:hover 
-    color: #333
-    text-shadow: 0 0 3px rgb(0, 0, 0)
+  color: #333
+  text-shadow: 0 0 3px rgb(0, 0, 0)
 
 
 .subir 
-    height: 45px
-    width: 45px
-    background-color: plum
-    border: 4px solid peru
-    position: fixed
-    right: 20px
-    bottom: 20px
-    color: orangered
-    text-align: center
-    font-size: 30px
-    line-height: 45px
-    border-radius: 50%
-    box-shadow: 0 0 5px orangered
+  height: 45px
+  width: 45px
+  background-color: plum
+  border: 4px solid peru
+  position: fixed
+  right: 20px
+  bottom: 20px
+  color: rgb(255, 0, 0)
+  text-align: center
+  font-size: 30px
+  line-height: 45px
+  border-radius: 50%
+  box-shadow: 0 0 5px orangered
+
+
+

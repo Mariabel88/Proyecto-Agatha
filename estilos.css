@@ -169,15 +169,18 @@ h5{
   background-position: center;
   transform: scale(1.2);
   animation-timing-function: ease-out;
-  
+  margin: 15px;
+  padding: 15px;
 }
 
 .item2 {
   background-image: url(imagenes/librosdeagathachristie.png);
   background-size: cover;
   background-position: center;
-  transform: translate(80px, 20px);
-  animation-timing-function: linear;
+  transform: scale(1.2);
+  animation-timing-function: ease-out;
+  margin: 15px;
+  padding: 15px;
 }
 
 .item3 {
@@ -186,6 +189,8 @@ h5{
   background-position: center;
   transform: rotateX(20deg);
   animation-timing-function: ease-in;
+  margin: 15px;
+  padding: 15px;
 }
 
 .item4 {
@@ -196,6 +201,8 @@ h5{
   background-position: center;
   transform: rotateY(20deg);
   animation-timing-function: ease-in-out;
+  margin: 10px;
+  padding: 15px;
 }
 
 .item5 {
@@ -206,6 +213,8 @@ h5{
   background-position: center;
   transform: rotateY(20deg);
   animation-timing-function: ease-in-out;
+  margin: 30px;
+  padding: 15px;
 }
 
 .item6 {
@@ -216,6 +225,8 @@ h5{
   background-position: center;
   transform: scale(1.2);
   animation-timing-function: ease-out;
+  margin: 30px;
+  padding: 15px;
 }
 
 .item7 {
@@ -226,14 +237,18 @@ h5{
   background-position: center;
   transform: skew(-20deg);
   animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  margin: 15px;
+  padding: 15px;
 }
 
 .item8 {
   background-image: url(imagenes/missmarple.png);
   background-size: cover;
   background-position: center;
-  transform: translate(80px, 20px);
-  animation-timing-function: linear;
+  transform: scale(1.2);
+  animation-timing-function: ease-out;
+  margin: 15px;
+  padding: 15px;
 }
 
 footer {
@@ -295,4 +310,5 @@ footer :hover{
 }
 
 /*# sourceMappingURL=estilos.css.map */
+
 
