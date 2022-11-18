@@ -163,18 +163,21 @@ h5{
 
 .item1 {
   background-image: url(imagenes/asesinatoenelexpresodeoriente.png);
+  width: 200px;
+  height: 200px;
   background-size: cover;
   background-position: center;
-  transform: translate(80px, 20px);
-  animation-timing-function: linear;
+  transform: scale(1.2);
+  animation-timing-function: ease-out;
+  
 }
 
 .item2 {
   background-image: url(imagenes/librosdeagathachristie.png);
   background-size: cover;
   background-position: center;
-  transform: scale(1.2);
-  animation-timing-function: ease-out;
+  transform: translate(80px, 20px);
+  animation-timing-function: linear;
 }
 
 .item3 {
@@ -187,6 +190,8 @@ h5{
 
 .item4 {
   background-image: url(imagenes/agathabiblioteca.png);
+  width: 200px;
+  height: 180px;
   background-size: cover;
   background-position: center;
   transform: rotateY(20deg);
@@ -195,14 +200,18 @@ h5{
 
 .item5 {
   background-image: url(imagenes/muerteenelnilo.png);
+  width: 250px;
+  height: 200px;
   background-size: cover;
   background-position: center;
-  transform: translate(80px, 20px);
-  animation-timing-function: linear;
+  transform: rotateY(20deg);
+  animation-timing-function: ease-in-out;
 }
 
 .item6 {
   background-image: url(imagenes/agatha-christie-1280x720-1.png);
+  width: 200px;
+  height: 200px;
   background-size: cover;
   background-position: center;
   transform: scale(1.2);
@@ -211,6 +220,8 @@ h5{
 
 .item7 {
   background-image: url(imagenes/imagesproyectowebchristie.png);
+  width: 200px;
+  height: 200px;
   background-size: cover;
   background-position: center;
   transform: skew(-20deg);
@@ -221,16 +232,21 @@ h5{
   background-image: url(imagenes/missmarple.png);
   background-size: cover;
   background-position: center;
-  transform: rotateY(20deg);
-  animation-timing-function: ease-in-out;
+  transform: translate(80px, 20px);
+  animation-timing-function: linear;
 }
 
 footer {
   background-color: peru;
+  color: #fff;
   text-align: center;
   font-size: 25px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-family: "Kalam", cursive;
+}
+footer :hover{
+  color: #333;
+  text-shadow: 0 0 3px rgb(0, 0, 0);
 }
 
 @media only screen and (min-width: 480px) {
@@ -279,3 +295,4 @@ footer {
 }
 
 /*# sourceMappingURL=estilos.css.map */
+

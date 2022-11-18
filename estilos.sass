@@ -99,20 +99,22 @@ h2
 
 
 
-.grid-container 
+  .grid-container 
     width: 100%
-    border: #333
+    border: rgb(46, 45, 45)
     background-color: rgba(34, 34, 34, 0.692)
     display: grid
+    grid-row: 30px
+    justify-content: space-around
     padding: auto
     margin: auto
     text-align: center
     font-size: 18px
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif
     font-family: "Kalam", cursive
-
-
-.list-container 
+  
+  
+  .list-container 
     width: 100%
     height: auto
     border: #333
@@ -122,18 +124,20 @@ h2
     padding: auto
     margin: auto
     font-size: 20px
-
-    
-h5
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif
-  font-family: "Kalam", cursive
-  font-size: 25px
-  color: #fff
-  background-color: goldenrod
-  text-shadow: 0 0 5px #333
-
-
-.galeria 
+    font-family: "Kalam", cursive 
+  
+  
+  h5
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif
+    font-family: "Kalam", cursive
+    font-size: 25px
+    color: #fff
+    background-color: goldenrod
+    text-shadow: 0 0 5px #333
+  
+  
+  
+  .galeria 
     background-image: url(imagenes/librosdeagathaenmesa.png)
     background-repeat: no-repeat
     background-attachment: fixed
@@ -145,94 +149,107 @@ h5
     grid-template-rows: repeat(8, 200px)
     grid-gap: 20px
     padding: 20px
-
-
-.item 
+  
+  
+  .item 
     width: 80%
     border: 2px solid #fff
-
-
-.item:hover 
+  
+  
+  .item:hover 
     transform: scale(1.05)
     transition: all 1.5s
     filter: invert(30%)
-
-
-.item1 
+  
+  
+  .item1 
     background-image: url(imagenes/asesinatoenelexpresodeoriente.png)
+    width: 200px
+    height: 200px
     background-size: cover
     background-position: center
-    transform: translate(100px, 20px)
-    animation-timing-function: linear
-
-
-.item2 
+    transform: scale(1.2)
+    animation-timing-function: ease-out
+    
+  
+  
+  .item2 
     background-image: url(imagenes/librosdeagathachristie.png)
     background-size: cover
     background-position: center
-    transform: rotate(20deg)
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
-
-
-.item3 
+    transform: translate(80px, 20px)
+    animation-timing-function: linear
+  
+  
+  .item3 
     background-image: url(imagenes/agathaysuslibros.png)
     background-size: cover
     background-position: center
     transform: rotateX(20deg)
     animation-timing-function: ease-in
-
-
-
-.item4 
+  
+  
+  .item4 
     background-image: url(imagenes/agathabiblioteca.png)
+    width: 200px
+    height: 180px
     background-size: cover
     background-position: center
     transform: rotateY(20deg)
     animation-timing-function: ease-in-out
-
-
-
-.item5 
+  
+  
+  .item5 
     background-image: url(imagenes/muerteenelnilo.png)
+    width: 250px
+    height: 200px
     background-size: cover
     background-position: center
-    transform: rotateZ(-20deg)
-    animation-timing-function: step-start
-
-
-.item6 
+    transform: rotateY(20deg)
+    animation-timing-function: ease-in-out
+  
+  
+  .item6 
     background-image: url(imagenes/agatha-christie-1280x720-1.png)
+    width: 200px
+    height: 200px
     background-size: cover
     background-position: center
     transform: scale(1.2)
     animation-timing-function: ease-out
-
-
-.item7 
+  
+  
+  .item7 
     background-image: url(imagenes/imagesproyectowebchristie.png)
+    width: 200px
+    height: 200px
     background-size: cover
     background-position: center
-    transform: skew(-30deg)
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1)
-
-
-.item8 
+    transform: skew(-20deg)
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+  
+  
+  .item8 
     background-image: url(imagenes/missmarple.png)
     background-size: cover
     background-position: center
-    transform: skewy(30deg)
-    animation-timing-function: step-start
-
-
-
-footer 
+    transform: translate(80px, 20px)
+    animation-timing-function: linear
+  
+  
+  footer 
     background-color: peru
+    color: #fff
     text-align: center
     font-size: 25px
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-    font-family: 'Kalam', cursive
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif
+    font-family: "Kalam", cursive
+  
 
-
+  footer :hover
+    color: #333
+    text-shadow: 0 0 3px rgb(0, 0, 0)
+  
 @media only screen and (min-width:480px) 
     .galeria 
         grid-template-columns: 1fr 1fr
